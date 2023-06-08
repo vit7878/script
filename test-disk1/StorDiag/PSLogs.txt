@@ -1,0 +1,891 @@
+MachineId: {D7A88829-45E8-4222-8E16-3FDE1E36C094}
+
+SystemInfo.exe
+----------------------------------------------------------
+
+Имя узла:                         SHAKHOV
+Название ОС:                      Майкрософт Windows 10 Корпоративная
+Версия ОС:                        10.0.19043 Н/Д построение 19043
+Изготовитель ОС:                  Microsoft Corporation
+Параметры ОС:                     Рядовая рабочая станция
+Сборка ОС:                        Multiprocessor Free
+Зарегистрированный владелец:      Пользователь Windows
+Зарегистрированная организация:   
+Код продукта:                     00329-10438-43979-AA656
+Дата установки:                   09.01.2023, 14:13:26
+Время загрузки системы:           10.03.2023, 16:34:03
+Изготовитель системы:             Gigabyte Technology Co., Ltd.
+Модель системы:                   B150M-D3H DDR3
+Тип системы:                      x64-based PC
+Процессор(ы):                     Число процессоров - 1.
+                                  [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~3700 МГц
+Версия BIOS:                      American Megatrends Inc. F20g, 09.03.2018
+Папка Windows:                    C:\Windows
+Системная папка:                  C:\Windows\system32
+Устройство загрузки:              \Device\HarddiskVolume2
+Язык системы:                     ru;Русский
+Язык ввода:                       en-us;Английский (США)
+Часовой пояс:                     (UTC+07:00) Новосибирск
+Полный объем физической памяти:   31 693 МБ
+Доступная физическая память:      19 079 МБ
+Виртуальная память: Макс. размер: 33 677 МБ
+Виртуальная память: Доступна:     17 858 МБ
+Виртуальная память: Используется: 15 819 МБ
+Расположение файла подкачки:      C:\pagefile.sys
+Домен:                            etr.eastbanctech.ru
+Сервер входа в сеть:              \\ETR-DC-07
+Исправление(я):                   Число установленных исправлений - 7.
+                                  [01]: KB5020872
+                                  [02]: KB5000736
+                                  [03]: KB5012170
+                                  [04]: KB5021233
+                                  [05]: KB5014032
+                                  [06]: KB5020372
+                                  [07]: KB5005260
+Сетевые адаптеры:                 Число сетевых адаптеров - 3.
+                                  [01]: Intel(R) Ethernet Connection (2) I219-V
+                                        Имя подключения: Ethernet
+                                        DHCP включен:    Да
+                                        DHCP-сервер:     192.168.158.6
+                                        IP-адрес
+                                        [01]: 192.168.154.76
+                                  [02]: Hyper-V Virtual Ethernet Adapter
+                                        Имя подключения: vEthernet (Default Switch)
+                                        DHCP включен:    Нет
+                                        IP-адрес
+                                        [01]: 172.29.80.1
+                                        [02]: fe80::55a7:b99e:179f:96ff
+                                  [03]: Hyper-V Virtual Ethernet Adapter
+                                        Имя подключения: vEthernet (NAT_NET)
+                                        DHCP включен:    Нет
+                                        IP-адрес
+                                        [01]: 172.17.17.1
+Требования Hyper-V:               Обнаружена низкоуровневая оболочка. Функции, необходимые для Hyper-V, отображены не будут.
+
+fltmc.exevolumes
+----------------------------------------------------------
+Имя Dos                        Имя тома                              Файловая система   Статус
+------------------------------  ---------------------------------------  ----------  --------
+                                \Device\Mup                              Remote      
+C:                              \Device\HarddiskVolume4                  NTFS        
+                                \Device\NamedPipe                        NamedPipe   
+                                \Device\Mailslot                         Mailslot    
+                                \Device\HarddiskVolume2                  FAT         
+                                \Device\HarddiskVolume1                  NTFS        
+D:                              \Device\CdRom0                           CDFS        
+                                \Device\HarddiskVolumeShadowCopy3        NTFS        
+                                \Device\HarddiskVolumeShadowCopy4        NTFS        
+                                \Device\HarddiskVolume28                 exFAT       Detached
+
+fltmc.exeinstances
+----------------------------------------------------------
+Фильтр                Имя тома                              Высота        Имя экземпляра       Кадр   SprtFtrs  Состояние тома
+--------------------  -------------------------------------  ------------  ----------------------  -----   --------  --------
+FileInfo              D:                                         40500     FileInfo                  0     00000007  
+FileInfo                                                         40500     FileInfo                  0     00000007  
+FileInfo                                                         40500     FileInfo                  0     00000007  
+FileInfo              \Device\HarddiskVolume28                   40500     FileInfo                  0     00000007  Detached
+FileInfo              C:                                         40500     FileInfo                  0     00000007  
+FileInfo              \Device\HarddiskVolumeShadowCopy3          40500     FileInfo                  0     00000007  
+FileInfo              \Device\HarddiskVolumeShadowCopy4          40500     FileInfo                  0     00000007  
+FileInfo              \Device\Mup                                40500     FileInfo                  0     00000007  
+FsDepends             D:                                        407000     FsDepends                 0     00000007  
+FsDepends                                                       407000     FsDepends                 0     00000007  
+FsDepends                                                       407000     FsDepends                 0     00000007  
+FsDepends             C:                                        407000     FsDepends                 0     00000007  
+FsDepends             \Device\HarddiskVolumeShadowCopy3         407000     FsDepends                 0     00000007  
+FsDepends             \Device\HarddiskVolumeShadowCopy4         407000     FsDepends                 0     00000007  
+FsDepends             \Device\Mup                               407000     FsDepends                 0     00000007  
+KLIF.KES-21-8         D:                                        320400.1665652438  KLIF.KES-21-8             0     0000000c  
+KLIF.KES-21-8                                                   320400.1665652438  KLIF.KES-21-8             0     0000000c  
+KLIF.KES-21-8                                                   320400.1665652438  KLIF.KES-21-8             0     0000000c  
+KLIF.KES-21-8         C:                                        320400.1665652438  KLIF.KES-21-8             0     0000000c  
+KLIF.KES-21-8         \Device\Mup                               320400.1665652438  KLIF.KES-21-8             0     0000000c  
+KLIF.KES-21-8         \Device\NamedPipe                         320400.1665652438  KLIF.KES-21-8             0     0000000c  
+Wof                                                              40700     Wof Instance              0     00000007  
+Wof                   C:                                         40700     Wof Instance              0     00000007  
+Wof                   \Device\HarddiskVolumeShadowCopy3          40700     Wof Instance              0     00000007  
+Wof                   \Device\HarddiskVolumeShadowCopy4          40700     Wof Instance              0     00000007  
+klbackupflt.KES-21-8                                            100800.1665652438  klbackupflt.KES-21-8      0     00000008  
+klbackupflt.KES-21-8  C:                                        100800.1665652438  klbackupflt.KES-21-8      0     00000008  
+klbackupflt.KES-21-8  \Device\Mup                               100800.1665652438  klbackupflt.KES-21-8      0     00000008  
+luafv                 C:                                        135000     luafv                     0     00000007  
+npsvctrig             \Device\NamedPipe                          46000     npsvctrig                 0     00000000  
+storqosflt            C:                                        244000     storqosflt                0     00000007  
+
+fltmc.exefilters
+----------------------------------------------------------
+
+Имя фильтра                     Число экземпляров    Высота    Кадр
+------------------------------  -------------  ------------  -----
+bindflt                                 0       409800         0
+FsDepends                               7       407000         0
+KLIF.KES-21-8                           6       320400.1665652438    0
+storqosflt                              1       244000         0
+wcifs                                   0       189900         0
+CldFlt                                  0       180451         0
+FileCrypt                               0       141100         0
+luafv                                   1       135000         0
+klbackupflt.KES-21-8                    3       100800.1665652438    0
+npsvctrig                               1        46000         0
+Wof                                     4        40700         0
+FileInfo                                8        40500         0
+
+Get-PhysicalDisk
+----------------------------------------------------------
+ClassName : MSFT_PhysicalDisk
+Usage : Auto-Select
+OperationalStatus : OK
+UniqueIdFormat : FCPH Name
+HealthStatus : Healthy
+BusType : SATA
+CannotPoolReason : Insufficient Capacity
+SupportedUsages : Auto-Select Manual-Select Hot Spare Retired Journal
+MediaType : SSD
+SpindleSpeed : 0
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PD:{62c5c136-2755-dbf9-4442-791c35539b3e}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : 500A0715E63E3209
+Description : 
+FriendlyName : CT480BX500SSD1
+Manufacturer : 
+Model : CT480BX500SSD1
+OperationalDetails : 
+PhysicalLocation : Integrated : Bus 0 : Device 23 : Function 0 : Adapter 0 : Port 0
+SerialNumber : 2225E63E3209
+AdapterSerialNumber : 
+AllocatedSize : 480103981056
+CanPool : False
+DeviceId : 0
+EnclosureNumber : 
+FirmwareVersion : M6CR054
+IsIndicationEnabled : 
+IsPartial : True
+LogicalSectorSize : 512
+OtherCannotPoolReasonDescription : 
+PartNumber : 
+PhysicalSectorSize : 512
+Size : 480103981056
+SlotNumber : 
+SoftwareVersion : 
+StoragePoolUniqueId : 
+VirtualDiskFootprint : 0
+PSComputerName : 
+
+ClassName : MSFT_PhysicalDisk
+Usage : Auto-Select
+OperationalStatus : OK
+UniqueIdFormat : Vendor Specific
+HealthStatus : Healthy
+BusType : USB
+CannotPoolReason : Insufficient Capacity
+SupportedUsages : Auto-Select Manual-Select Hot Spare Retired Journal
+MediaType : Unspecified
+SpindleSpeed : 0
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PD:{bddbf7af-1c27-d0e0-6d59-40a1bf2c11c3}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {bddbf7af-1c27-d0e0-6d59-40a1bf2c11c3}
+Description : 
+FriendlyName : ADATA SU 650
+Manufacturer : ADATA SU
+Model : 650
+OperationalDetails : 
+PhysicalLocation : Integrated : Bus 0 : Device 0 : Function 5 : Adapter 0 : Port 0
+SerialNumber : 214200564378
+AdapterSerialNumber : 
+AllocatedSize : 240056360960
+CanPool : False
+DeviceId : 1
+EnclosureNumber : 
+FirmwareVersion : 
+IsIndicationEnabled : 
+IsPartial : True
+LogicalSectorSize : 512
+OtherCannotPoolReasonDescription : 
+PartNumber : 
+PhysicalSectorSize : 512
+Size : 240057409536
+SlotNumber : 
+SoftwareVersion : 
+StoragePoolUniqueId : 
+VirtualDiskFootprint : 0
+PSComputerName : 
+
+
+Get-Partition
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0000-100000000000}\\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0000-100000000000}500A0715E63E3209
+AccessPaths : \\?\Volume{56fa6e4a-d226-404a-8769-04481c44da0c}\, 
+DiskId : \\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 0
+DriveLetter :  
+GptType : {de94bba4-06d1-4d40-a16a-bfd50179d6ac}
+Guid : {56fa6e4a-d226-404a-8769-04481c44da0c}
+IsActive : False
+IsBoot : False
+IsDAX : False
+IsHidden : False
+IsOffline : False
+IsReadOnly : False
+IsShadowCopy : False
+IsSystem : False
+MbrType : 
+NoDefaultDriveLetter : True
+Offset : 1048576
+OperationalStatus : 1
+PartitionNumber : 1
+Size : 471859200
+TransitionState : 1
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0000-301c00000000}\\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0000-301c00000000}500A0715E63E3209
+AccessPaths : \\?\Volume{9acdaef8-fd0b-45d0-99e0-c03c7a73dcd5}\, 
+DiskId : \\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 0
+DriveLetter :  
+GptType : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+Guid : {9acdaef8-fd0b-45d0-99e0-c03c7a73dcd5}
+IsActive : False
+IsBoot : False
+IsDAX : 
+IsHidden : True
+IsOffline : False
+IsReadOnly : 
+IsShadowCopy : 
+IsSystem : True
+MbrType : 
+NoDefaultDriveLetter : 
+Offset : 472907776
+OperationalStatus : 1
+PartitionNumber : 2
+Size : 104857600
+TransitionState : 1
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0000-702200000000}\\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0000-702200000000}500A0715E63E3209
+AccessPaths : 
+DiskId : \\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 0
+DriveLetter :  
+GptType : {e3c9e316-0b5c-4db8-817d-f92df00215ae}
+Guid : {2f583085-be0d-4c08-bef7-453edb7b31b0}
+IsActive : False
+IsBoot : False
+IsDAX : 
+IsHidden : True
+IsOffline : False
+IsReadOnly : 
+IsShadowCopy : 
+IsSystem : False
+MbrType : 
+NoDefaultDriveLetter : 
+Offset : 577765376
+OperationalStatus : 1
+PartitionNumber : 3
+Size : 16777216
+TransitionState : 1
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0000-702300000000}\\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0000-702300000000}500A0715E63E3209
+AccessPaths : C:\, \\?\Volume{dfda95cd-93cb-4b29-959c-2880eff5fe33}\, 
+DiskId : \\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 0
+DriveLetter : C
+GptType : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Guid : {dfda95cd-93cb-4b29-959c-2880eff5fe33}
+IsActive : False
+IsBoot : True
+IsDAX : False
+IsHidden : False
+IsOffline : False
+IsReadOnly : False
+IsShadowCopy : False
+IsSystem : False
+MbrType : 
+NoDefaultDriveLetter : False
+Offset : 594542592
+OperationalStatus : 1
+PartitionNumber : 4
+Size : 479508561920
+TransitionState : 1
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0044-000000000000}\\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0044-000000000000}USBSTOR\DISK&VEN_ADATA_SU&PROD_650&REV_\214200564378&0:SHAKHOV
+AccessPaths : 
+DiskId : \\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 1
+DriveLetter :  
+GptType : {e3c9e316-0b5c-4db8-817d-f92df00215ae}
+Guid : {39d6ad04-3dab-463f-93ef-02e1f1dc77ed}
+IsActive : False
+IsBoot : False
+IsDAX : 
+IsHidden : True
+IsOffline : False
+IsReadOnly : 
+IsShadowCopy : 
+IsSystem : False
+MbrType : 
+NoDefaultDriveLetter : 
+Offset : 17408
+OperationalStatus : 1
+PartitionNumber : 1
+Size : 16759808
+TransitionState : 1
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Partition.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:PR:{00000000-0000-0000-0000-000100000000}\\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {00000000-0000-0000-0000-000100000000}USBSTOR\DISK&VEN_ADATA_SU&PROD_650&REV_\214200564378&0:SHAKHOV
+AccessPaths : I:\, \\?\Volume{62e9d8f5-1f18-4fcf-8df6-c783723999d5}\, 
+DiskId : \\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+DiskNumber : 1
+DriveLetter : I
+GptType : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Guid : {62e9d8f5-1f18-4fcf-8df6-c783723999d5}
+IsActive : False
+IsBoot : False
+IsDAX : False
+IsHidden : False
+IsOffline : False
+IsReadOnly : False
+IsShadowCopy : False
+IsSystem : False
+MbrType : 
+NoDefaultDriveLetter : False
+Offset : 16777216
+OperationalStatus : 1
+PartitionNumber : 2
+Size : 480028655616
+TransitionState : 1
+PSComputerName : 
+
+
+Get-Volume
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:VO:\\?\Volume{16629072-c144-11ed-b994-408d5c499a67}\"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : \\?\Volume{16629072-c144-11ed-b994-408d5c499a67}\
+AllocationUnitSize : 2048
+DedupMode : 4
+DriveLetter : D
+DriveType : 5
+FileSystem : CDFS
+FileSystemLabel : HPSSA21
+FileSystemType : 0
+HealthStatus : 0
+OperationalStatus : 2, 
+Path : \\?\Volume{16629072-c144-11ed-b994-408d5c499a67}\
+Size : 717916160
+SizeRemaining : 0
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:VO:\\?\Volume{56fa6e4a-d226-404a-8769-04481c44da0c}\"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : \\?\Volume{56fa6e4a-d226-404a-8769-04481c44da0c}\
+AllocationUnitSize : 4096
+DedupMode : 4
+DriveLetter : 
+DriveType : 3
+FileSystem : NTFS
+FileSystemLabel : WinRE
+FileSystemType : 14
+HealthStatus : 0
+OperationalStatus : 2, 
+Path : \\?\Volume{56fa6e4a-d226-404a-8769-04481c44da0c}\
+Size : 471855104
+SizeRemaining : 457125888
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:VO:\\?\Volume{62e9d8f5-1f18-4fcf-8df6-c783723999d5}\"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : \\?\Volume{62e9d8f5-1f18-4fcf-8df6-c783723999d5}\
+AllocationUnitSize : 0
+DedupMode : 4
+DriveLetter : I
+DriveType : 3
+FileSystem : 
+FileSystemLabel : 
+FileSystemType : 0
+HealthStatus : 0
+OperationalStatus : 0, 
+Path : \\?\Volume{62e9d8f5-1f18-4fcf-8df6-c783723999d5}\
+Size : 0
+SizeRemaining : 0
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:VO:\\?\Volume{9acdaef8-fd0b-45d0-99e0-c03c7a73dcd5}\"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : \\?\Volume{9acdaef8-fd0b-45d0-99e0-c03c7a73dcd5}\
+AllocationUnitSize : 1024
+DedupMode : 4
+DriveLetter : 
+DriveType : 3
+FileSystem : FAT32
+FileSystemLabel : SYSTEM
+FileSystemType : 6
+HealthStatus : 0
+OperationalStatus : 2, 
+Path : \\?\Volume{9acdaef8-fd0b-45d0-99e0-c03c7a73dcd5}\
+Size : 100663296
+SizeRemaining : 72836096
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:VO:\\?\Volume{dfda95cd-93cb-4b29-959c-2880eff5fe33}\"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : \\?\Volume{dfda95cd-93cb-4b29-959c-2880eff5fe33}\
+AllocationUnitSize : 4096
+DedupMode : 4
+DriveLetter : C
+DriveType : 3
+FileSystem : NTFS
+FileSystemLabel : Windows
+FileSystemType : 14
+HealthStatus : 0
+OperationalStatus : 2, 
+Path : \\?\Volume{dfda95cd-93cb-4b29-959c-2880eff5fe33}\
+Size : 479508557824
+SizeRemaining : 204139028480
+PSComputerName : 
+
+
+Get-Disk
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Disk.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:DI:\\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : 500A0715E63E3209
+AdapterSerialNumber : 
+AllocatedSize : 480103981056
+BootFromDisk : True
+BusType : 11
+FirmwareVersion : M6CR054
+FriendlyName : CT480BX500SSD1
+Guid : {a0a992cc-ef72-4e32-ba51-503f850e9b86}
+HealthStatus : 0
+IsBoot : True
+IsClustered : False
+IsHighlyAvailable : False
+IsOffline : False
+IsReadOnly : False
+IsScaleOut : False
+IsSystem : True
+LargestFreeExtent : 0
+Location : Integrated : Bus 0 : Device 23 : Function 0 : Adapter 0 : Port 0
+LogicalSectorSize : 512
+Manufacturer : 
+Model : CT480BX500SSD1
+Number : 0
+NumberOfPartitions : 4
+OfflineReason : 0
+OperationalStatus : 53264, 
+PartitionStyle : 2
+Path : \\?\scsi#disk&ven_&prod_ct480bx500ssd1#4&1f5e0e69&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+PhysicalSectorSize : 512
+ProvisioningType : 2
+SerialNumber : 2225E63E3209
+Signature : 
+Size : 480103981056
+UniqueIdFormat : 3
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\WSP_Disk.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:DI:\\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : USBSTOR\DISK&VEN_ADATA_SU&PROD_650&REV_\214200564378&0:SHAKHOV
+AdapterSerialNumber : 
+AllocatedSize : 240056360960
+BootFromDisk : False
+BusType : 7
+FirmwareVersion : 
+FriendlyName : ADATA SU 650
+Guid : {6796a6c2-6816-4d28-90fc-a4a4f574b72b}
+HealthStatus : 0
+IsBoot : False
+IsClustered : False
+IsHighlyAvailable : False
+IsOffline : False
+IsReadOnly : False
+IsScaleOut : False
+IsSystem : False
+LargestFreeExtent : 1048576
+Location : Integrated : Bus 0 : Device 0 : Function 5 : Adapter 0 : Port 0
+LogicalSectorSize : 512
+Manufacturer : ADATA SU
+Model : 650             
+Number : 1
+NumberOfPartitions : 2
+OfflineReason : 0
+OperationalStatus : 53264, 
+PartitionStyle : 2
+Path : \\?\usbstor#disk&ven_adata_su&prod_650&rev_#214200564378&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+PhysicalSectorSize : 512
+ProvisioningType : 2
+SerialNumber : 214200564378
+Signature : 
+Size : 240057409536
+UniqueIdFormat : 0
+PSComputerName : 
+
+
+Get-StorageSubSystem
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_StorageSubsystem.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:SS"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {4c74854b-900e-11ed-b981-806e6f6e6963}:SS
+AutomaticClusteringEnabled : False
+CimServerName : 
+CurrentCacheLevel : 0
+DataTieringType : 3
+Description : 
+FaultDomainAwarenessDefault : 1
+FirmwareVersion : 10.0.5
+FriendlyName : Windows Storage on SHAKHOV
+HealthStatus : 0
+iSCSITargetCreationScheme : 
+Manufacturer : Microsoft Corporation
+MaskingClientSelectableDeviceNumbers : False
+MaskingMapCountMax : 1
+MaskingOneInitiatorIdPerView : 
+MaskingOtherValidInitiatorIdTypes : 
+MaskingPortsPerView : 4
+MaskingValidInitiatorIdTypes : 4, 
+Model : Windows Storage
+Name : SHAKHOV.etr.eastbanctech.ru
+NameFormat : 1
+NumberOfSlots : 
+OperationalStatus : 2, 
+OtherHostTypeDescription : 
+OtherIdentifyingInfo : 
+OtherIdentifyingInfoDescription : 
+OtherOperationalStatusDescription : 
+PhysicalDisksPerStoragePoolMin : 1
+ReplicasPerSourceCloneMax : 
+ReplicasPerSourceMirrorMax : 
+ReplicasPerSourceSnapshotMax : 
+SerialNumber : {4c74854b-900e-11ed-b981-806e6f6e6963}
+StorageConnectionType : 2
+SupportedDeduplicationFileSystemTypes : 
+SupportedDeduplicationObjectTypes : 
+SupportedFileServerProtocols : 3, 
+SupportedFileSystems : 14, 15, 
+SupportedHostType : 
+SupportsAutomaticStoragePoolSelection : False
+SupportsCloneLocal : False
+SupportsCloneRemote : False
+SupportsContinuouslyAvailableFileServer : False
+SupportsFileServer : True
+SupportsFileServerCreation : False
+SupportsMaskingVirtualDiskToHosts : False
+SupportsMirrorLocal : False
+SupportsMirrorRemote : True
+SupportsMultipleResiliencySettingsPerStoragePool : True
+SupportsSnapshotLocal : False
+SupportsSnapshotRemote : False
+SupportsStoragePoolAddPhysicalDisk : True
+SupportsStoragePoolCreation : True
+SupportsStoragePoolDeletion : True
+SupportsStoragePoolFriendlyNameModification : True
+SupportsStoragePoolRemovePhysicalDisk : True
+SupportsStorageTierCreation : True
+SupportsStorageTierDeletion : True
+SupportsStorageTieredVirtualDiskCreation : True
+SupportsStorageTierFriendlyNameModification : True
+SupportsStorageTierResize : True
+SupportsVirtualDiskCapacityExpansion : True
+SupportsVirtualDiskCapacityReduction : False
+SupportsVirtualDiskCreation : True
+SupportsVirtualDiskDeletion : True
+SupportsVirtualDiskModification : True
+SupportsVirtualDiskRepair : True
+SupportsVolumeCreation : True
+Tag : 
+VirtualDiskRepairEnabled : 
+PSComputerName : 
+
+
+Get-VirtualDisk
+----------------------------------------------------------
+
+Get-StoragePool
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_StoragePool.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:SP:{4c74854a-900e-11ed-b981-806e6f6e6963}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {4c74854a-900e-11ed-b981-806e6f6e6963}
+AllocatedSize : 0
+ClearOnDeallocate : False
+EnclosureAwareDefault : False
+FaultDomainAwarenessDefault : 1
+FriendlyName : Primordial
+HealthStatus : 0
+IsClustered : False
+IsPowerProtected : False
+IsPrimordial : True
+IsReadOnly : False
+LogicalSectorSize : 
+MediaTypeDefault : 0
+Name : 
+OperationalStatus : 2, 
+OtherOperationalStatusDescription : 
+OtherUsageDescription : 
+PhysicalSectorSize : 
+ProvisioningTypeDefault : 2
+ReadOnlyReason : 1
+RepairPolicy : 3
+ResiliencySettingNameDefault : Mirror
+RetireMissingPhysicalDisks : 1
+Size : 720161390592
+SupportedProvisioningTypes : 1, 2, 
+SupportsDeduplication : False
+ThinProvisioningAlertThresholds : 70, 
+Usage : 1
+Version : 25
+WriteCacheSizeDefault : 18446744073709551615
+WriteCacheSizeMax : 18446744073709551614
+WriteCacheSizeMin : 0
+PSComputerName : 
+
+
+Get-StorageEnclosure
+----------------------------------------------------------
+
+Get-PhysicalDisk | Get-StorageReliabilityCounter
+----------------------------------------------------------
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_StorageReliabilityCounter.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:RC:{62c5c136-2755-dbf9-4442-791c35539b3e}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {4c74854b-900e-11ed-b981-806e6f6e6963}:RC:{62c5c136-2755-dbf9-4442-791c35539b3e}
+DeviceId : 0
+FlushLatencyMax : 2097
+LoadUnloadCycleCount : 
+LoadUnloadCycleCountMax : 
+ManufactureDate : 
+PowerOnHours : 1830
+ReadErrorsCorrected : 0
+ReadErrorsTotal : 0
+ReadErrorsUncorrected : 0
+ReadLatencyMax : 510
+StartStopCycleCount : 
+StartStopCycleCountMax : 
+Temperature : 32
+TemperatureMax : 0
+Wear : 0
+WriteErrorsCorrected : 
+WriteErrorsTotal : 
+WriteErrorsUncorrected : 
+WriteLatencyMax : 2111
+PSComputerName : 
+
+ObjectId : {1}\\SHAKHOV\root/Microsoft/Windows/Storage/Providers_v2\SPACES_StorageReliabilityCounter.ObjectId="{4c74854b-900e-11ed-b981-806e6f6e6963}:RC:{bddbf7af-1c27-d0e0-6d59-40a1bf2c11c3}"
+PassThroughClass : 
+PassThroughIds : 
+PassThroughNamespace : 
+PassThroughServer : 
+UniqueId : {4c74854b-900e-11ed-b981-806e6f6e6963}:RC:{bddbf7af-1c27-d0e0-6d59-40a1bf2c11c3}
+DeviceId : 1
+FlushLatencyMax : 
+LoadUnloadCycleCount : 
+LoadUnloadCycleCountMax : 
+ManufactureDate : 
+PowerOnHours : 
+ReadErrorsCorrected : 
+ReadErrorsTotal : 
+ReadErrorsUncorrected : 
+ReadLatencyMax : 8
+StartStopCycleCount : 
+StartStopCycleCountMax : 
+Temperature : 0
+TemperatureMax : 0
+Wear : 0
+WriteErrorsCorrected : 
+WriteErrorsTotal : 
+WriteErrorsUncorrected : 
+WriteLatencyMax : 
+PSComputerName : 
+
+
+Get-PhysicalDisk | Get-StorageFirmwareInformation
+----------------------------------------------------------
+Object : MSFT_PhysicalDisk (ObjectId = "{1}\\SHAKHOV\root/Microsoft/Windows/Sto...)
+SupportsUpdate : True
+NumberOfSlots : 1
+ActiveSlotNumber : 0
+SlotNumber : 0, 
+IsSlotWritable : True, 
+FirmwareVersionInSlot : M6CR054, 
+
+
+Storage Device Information
+----------------------------------------------------------
+Storage Type: STORAGE_DEVICE_INTERNAL
+
+PathName: 'C:\'
+DeviceProperties: 0
+PresenceState: STORAGE_PRESENCE_MOUNTED
+DismountReason: STORAGE_DISMOUNT_NONE
+VolumeStatus: 0
+FreeSpaceState: STORAGE_SPACE_NORMAL
+TempCleanupState: STORAGE_TEMP_NORMAL
+StorageId (MediaId): 35323232-3645-4533-1601-914d40a9f192
+AppPairingStatus: 2
+ReservedSize: 593494016
+FriendlyName: '‎Windows (C:)'
+BusType: 11
+FileSystemType: 1
+
+Storage Type: STORAGE_DEVICE_EXTERNAL
+No devices.
+
+Storage Type: STORAGE_DEVICE_CURRENT
+No devices.
+
+
+
+Reading scheduled task settings for Microsoft\Windows\Defrag\ScheduledDefrag
+schtasks.exe/query /xml /tn Microsoft\Windows\Defrag\ScheduledDefrag
+----------------------------------------------------------
+<?xml version="1.0" encoding="UTF-16"?>
+<Task version="1.6" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <SecurityDescriptor>D:AI(A;;FA;;;BA)(A;;FA;;;SY)(A;;FRFX;;;LS)(A;;FR;;;AU)</SecurityDescriptor>
+    <Source>$(@%systemroot%\system32\defragsvc.dll,-800)</Source>
+    <Author>$(@%systemroot%\system32\defragsvc.dll,-801)</Author>
+    <Description>$(@%systemroot%\system32\defragsvc.dll,-802)</Description>
+    <URI>\Microsoft\Windows\Defrag\ScheduledDefrag</URI>
+  </RegistrationInfo>
+  <Principals>
+    <Principal id="LocalSystem">
+      <UserId>S-1-5-18</UserId>
+      <RunLevel>HighestAvailable</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <IdleSettings>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <UseUnifiedSchedulingEngine>true</UseUnifiedSchedulingEngine>
+    <MaintenanceSettings>
+      <Period>P7D</Period>
+      <Deadline>P1M</Deadline>
+    </MaintenanceSettings>
+  </Settings>
+  <Triggers />
+  <Actions Context="LocalSystem">
+    <Exec>
+      <Command>%windir%\system32\defrag.exe</Command>
+      <Arguments>-c -h -o -$</Arguments>
+    </Exec>
+  </Actions>
+</Task>
+
+
+Scanning Storport\Health event log for event 511 (Device Statistics Log page)
+NOTE [DSL]: No event log found
+
+
+Storage Usage Breakdown Information
+----------------------------------------------------------
+
+Total Size(bytes): 479508561920, Total Size(GB): 446,5771
+Free Size(bytes) : 204138848256, Free Size(GB) : 190,1191
+
+Category, Size(bytes), Size(GB)
+----------------------------------------------------------
+
+DATA_TYPE_ROOT, 116745396224, 108,7276
+DATA_TYPE_SYSTEMANDRESERVED, 51417477120, 47,8863
+DATA_TYPE_MUSIC, 0, 0,0000
+DATA_TYPE_PICTURES, 0, 0,0000
+DATA_TYPE_VIDEOS, 0, 0,0000
+DATA_TYPE_APPS, 664764416, 0,6191
+DATA_TYPE_MAPS, 0, 0,0000
+DATA_TYPE_DOCS, 28400406528, 26,4499
+DATA_TYPE_TEMP, 2173239296, 2,0240
+DATA_TYPE_PIM, 168034304, 0,1565
+DATA_TYPE_DOWNLOADS, 21790572544, 20,2941
+DATA_TYPE_ONEDRIVE, 0, 0,0000
+DATA_TYPE_CLASSIC_APPS, 23772319744, 22,1397
+DATA_TYPE_OTHER_USER_PROFILES, 1001160704, 0,9324
+DATA_TYPE_RECYCLE_BIN, 68100096, 0,0634
+DATA_TYPE_SYSTEM_PAGEFILE, 2097152000, 1,9531
+DATA_TYPE_SYSTEM_HIBERFILE, 13293035520, 12,3801
+DATA_TYPE_SYSTEM_RESTORE, 8324845568, 7,7531
+DATA_TYPE_TEMP_PREV_INSTALLATION, 0, 0,0000
+DATA_TYPE_DESKTOP, 1716224, 0,0016
+DATA_TYPE_STAGED_UPDATES, 761638912, 0,7093
+DATA_TYPE_SR_HARD, 2951917568, 2,7492
+DATA_TYPE_SR_SOFT, 1610612736, 1,5000
+DATA_TYPE_SR_UPDATESCRATCH, 0, 0,0000
+----------------------------------------------------------
+
+
+
+Found bootstat.dat: True
+
+Total runtime: 55,9100604 Seconds

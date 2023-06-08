@@ -1,0 +1,1 @@
+ Get-ADUser -Properties name, description -Filter * -SearchBase "OU=Users,OU=ETR-RU,DC=etr,DC=eastbanctech,DC=ru" | ft

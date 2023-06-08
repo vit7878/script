@@ -1,0 +1,80 @@
+winlogbeat.event_logs:
+#================================ Application Log ===============================
+  - name: Application
+    level: critical, error, warning
+    ignore_older: 168h
+
+#================================= Security Log =================================
+  - name: Security
+    ignore_older: 168h
+    processors:
+      - drop_event.when.not:
+          or:
+            - equals.winlog.event_id: "4697" #A service was installed in the system
+            - equals.winlog.event_id: "4663" #An attempt was made to access an object
+            - equals.winlog.event_id: "4767" #A user account was unlocked
+            - equals.winlog.event_id: "4740" #A user account was locked out
+            - equals.winlog.event_id: "4726" #A user account was deleted
+            - equals.winlog.event_id: "5136" #A directory service object was modified
+            - equals.winlog.event_id: "5137" #A directory service object was created
+            - equals.winlog.event_id: "5138" #A directory service object was undeleted
+            - equals.winlog.event_id: "5139" #A directory service object was moved
+            - equals.winlog.event_id: "5141" #A directory service object was deleted
+            - equals.winlog.event_id: "4720" #A user account was created
+            - equals.winlog.event_id: "4730" #A security-enabled global group was deleted
+            - equals.winlog.event_id: "4729" #A member was removed from a security-enabled global group
+            - equals.winlog.event_id: "4733" #A member was removed from a security-enabled local group
+            - equals.winlog.event_id: "4757" #A member was removed from a security-enabled universal group
+            - equals.winlog.event_id: "4728" #A member was added to a security-enabled global group
+            - equals.winlog.event_id: "4732" #A member was added to a security-enabled local group
+            - equals.winlog.event_id: "4756" #A member was added to a security-enabled universal group
+            - equals.winlog.event_id: "4723" #An attempt was made to change an account's password
+            - equals.winlog.event_id: "4724" #An attempt was made to reset an accounts password
+            - equals.winlog.event_id: "4738" #A user account was changed
+            - equals.winlog.event_id: "4768" #A Kerberos authentication ticket (TGT) was requested
+            - equals.winlog.event_id: "4776" #The domain controller attempted to validate the credentials for an account
+            - equals.winlog.event_id: "4771" #Kerberos pre-authentication failed
+            - equals.winlog.event_id: "4624" #An account was successfully logged on
+            - equals.winlog.event_id: "4625" #An account failed to log on
+
+#================================= System Log =================================
+  - name: System
+    ignore_older: 168h
+    level: critical, error, warning, information
+    processors:
+      - drop_event:
+          when:
+            and:
+              - equals.log.level: "information"
+              - not.equals.event.provider: "RemoteAccess"
+
+#============================ Terminal Services Log =============================
+  - name: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational
+    event_id: 1149
+    ignore_older: 168h
+  - name: Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
+    event_id: 40, 21, 24, 25, 39, 23
+    ignore_older: 168h
+
+#=============================== Microsoft Defender Log =========================
+  - name: Microsoft-Windows-Windows Defender/Operational
+    event_id: 1000, 1001, 1002, 1003, 1005, 1006, 1007, 1008, 1009, 1011, 1116, 1119, 2000, 2001, 2003, 2006, 5010, 5012
+    ignore_older: 168h
+
+#================================= Kaspersky Log =================================
+  - name: Kaspersky Security
+    event_id: 3202
+    ignore_older: 168h
+#=================================================================================    
+
+tags: ["winlog"]
+
+logging.level: warning
+logging.to_files: true
+logging.files:
+  path: C:/ProgramData/Elastic/Beats/winlogbeat
+  name: winlogbeat.log
+  keepfiles: 7
+
+output.logstash:
+  hosts: ["te-elk.trueengineering.ru:5044"]
