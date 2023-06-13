@@ -1,0 +1,1 @@
+﻿C:\Nuget\nuget.exe push "C:\Program Files\PackageManagement\NuGet\Packages\*\*.nupkg" -ApiKey 691e1f3b-ebcb-3a78-8a25-4400215d4947 -SkipDuplicate -source https://nexus.trueengineering.ru/repository/test_malenkov_nuget/

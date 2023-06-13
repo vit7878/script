@@ -9,7 +9,7 @@
 
 
 
- Get-ADUser v.kazachenko -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires, lastlogontimestamp, extensionAttribute1
+ Get-ADUser m.chvorun -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires, lastlogontimestamp, extensionAttribute1
 
 
 

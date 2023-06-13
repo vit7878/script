@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter * -Properties AccountExpirationDate | where {$_.AccountExpirationDate -ne $null} | Select-Object Name, AccountExpirationDate, DistinguishedName
