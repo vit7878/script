@@ -37,4 +37,4 @@ Get-WindowsUpdateLog -LogPath $env:temp\UpdateLog.log
 
 $compName = (Get-ComputerInfo).CsName
 $finaloutput = $successWsus + "`r`n" + $successPochta
-Send-MailMessage -From 'te_admins <te_admins@trueengineering.ru>' -To 'a.malenkov <a.malenkov@trueengineering.ru>' -Subject "ComputerName - '$compName'" -Body $finaloutput -Attachments $env:temp\UpdateLog.log -SmtpServer 192.168.150.49
+Send-MailMessage -From 'te_admins <te_admins@trueengineering.ru>' -To 'v.shakhov <v.shakhov@trueengineering.ru>' -Subject "ComputerName - '$compName'" -Body $finaloutput -Attachments $env:temp\UpdateLog.log -SmtpServer 192.168.150.49
