@@ -1,6 +1,6 @@
 #Set-ExecutionPolicy Unrestricted
 
-[string[]]$computerNames = Get-Content -Path '\\etr-fs-01\Infrastructure\Distr\Winlogbeat\servers_test_new_conf1.txt'
+[string[]]$computerNames = Get-Content -Path '\\etr-fs-01\Infrastructure\Distr\Winlogbeat\servers_test_new_conf2.txt'
 
 #Если конфиг типовой, то менять не надо
 $file_yml = '\\etr-fs-01\Infrastructure\Distr\Winlogbeat\winlogbeat_05062023.yml'

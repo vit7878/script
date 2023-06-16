@@ -4,13 +4,13 @@
 
  $Sbase1 = 'OU=Disabled Accounts,DC=etr,DC=eastbanctech,DC=ru'
  $Sbase2 = 'OU=Users,OU=ETR-RU,DC=etr,DC=eastbanctech,DC=ru' 
- $myVar = 'CHEREPANOVA'
+ $myVar = 'skabina'
  Get-ADUser -Filter {Surname -like $myVar} -searchbase $Sbase2 -Properties extensionAttribute1 | Select-Object SamAccountName, extensionAttribute1
 
 
 
- Get-ADUser p.cherepanova -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires, lastlogontimestamp, extensionAttribute1
+ Get-ADUser v.mirniy -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires, lastlogontimestamp, extensionAttribute1
 
 
 
- Get-ADUser -Identity p.cherepanova -Properties LastLogon | Select-Object Name, @{Name='LastLogon';Expression={[DateTime]::FromFileTime($_.LastLogon)}}
+ Get-ADUser -Identity v.skabina -Properties LastLogon | Select-Object Name, @{Name='LastLogon';Expression={[DateTime]::FromFileTime($_.LastLogon)}}
