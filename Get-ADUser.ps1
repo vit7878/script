@@ -4,8 +4,8 @@
 
  $Sbase1 = 'OU=Disabled Accounts,DC=etr,DC=eastbanctech,DC=ru'
  $Sbase2 = 'OU=Users,OU=ETR-RU,DC=etr,DC=eastbanctech,DC=ru' 
- $myVar = 'skabina'
- Get-ADUser -Filter {Surname -like $myVar} -searchbase $Sbase2 -Properties extensionAttribute1 | Select-Object SamAccountName, extensionAttribute1
+ $myVar = 'bannikov'
+ Get-ADUser -Filter {Surname -like $myVar} -searchbase $Sbase1 -Properties extensionAttribute1 | Select-Object SamAccountName, extensionAttribute1
 
 
 
